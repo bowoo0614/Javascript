@@ -1,0 +1,41 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: #eeeeee;
+}
+
+.menu > .perchase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu > .perchase > .account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu > .perchase > .account > button {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
+
+.menu > .perchase > .account > span {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
